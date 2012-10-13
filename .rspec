@@ -1,0 +1,7 @@
+--drb
+--colour
+<% if (ENV['TRAVIS'] == 'true') %>
+--format Fuubar
+<% else %>
+--format documentation
+<% end %>
